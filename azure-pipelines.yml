@@ -31,7 +31,7 @@ steps:
     resourceGroupName: $(resourceGroupName)
     location: $(location)
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/valarmathi/azure-arm/main/CreateWebApp/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/k-bhavitha/azure-arm/main/CreateWebApp/azuredeploy.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DevopsVM'
     overrideParameters: '-adminUsername $(adminUsername) -authenticationType $(authenticationType) -adminPasswordOrKey $(adminPasswordOrKey) -vmName $(vmName) -networkSecurityGroupName $(networkSecurityGroupName) -subnetName $(subnetName)'
