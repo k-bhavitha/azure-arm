@@ -16,6 +16,13 @@
         "description": "The name of you Virtual Machine."
       }
     },
+    "deploymentID": {
+      "type": "string",
+      "defaultValue": "defaultdeploybhavitha",
+      "metadata": {
+        "description": "Default deployment id"
+      }
+    },
     "adminUsername": {
       "type": "string",
       "metadata": {
