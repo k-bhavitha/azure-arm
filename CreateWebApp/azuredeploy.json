@@ -216,7 +216,7 @@
       "name": "[parameters('vmName')]",
       "location": "[parameters('location')]",
       "tags": {
-        "deployment-id": "[parameters('vmName')]"
+        "deployment-id": "[parameters('deploymentID')]"
       },
       "properties": {
         "hardwareProfile": {
