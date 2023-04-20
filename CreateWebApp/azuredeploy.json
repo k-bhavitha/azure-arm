@@ -87,7 +87,7 @@
         "description": "Name of the VNET"
       },
        "properties":{
-        "subnets" : ["subnet"]
+        "subnets" : "subnet"
       }
     },
     "networkSecurityGroupName": {
