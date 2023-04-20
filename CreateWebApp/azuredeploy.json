@@ -80,22 +80,18 @@
         "description": "The size of the VM"
       }
     },
-    "virtualNetworkName": {
+  "virtualNetworkName": {
       "type": "string",
       "defaultValue": "vNet",
       "metadata": {
         "description": "Name of the VNET"
-      },
-       "properties":{
-        "subnets" : [
-               {
-                 "type": "string",
-                 "defaultValue": "Subnet",
-                 "metadata": {
-                    "description": "Name of the subnet in the virtual network"
-                  }
-              }
-         ]
+      }
+    },
+    "subnetName": {
+      "type": "string",
+      "defaultValue": "Subnet",
+      "metadata": {
+        "description": "Name of the subnet in the virtual network"
       }
     },
     "networkSecurityGroupName": {
