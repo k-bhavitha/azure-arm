@@ -86,12 +86,8 @@
       "metadata": {
         "description": "Name of the VNET"
       }
-    },
-    "subnetName": {
-      "type": "string",
-      "defaultValue": "Subnet",
-      "metadata": {
-        "description": "Name of the subnet in the virtual network"
+       "properties":{
+        "subnets" : ["subnet"]
       }
     },
     "networkSecurityGroupName": {
