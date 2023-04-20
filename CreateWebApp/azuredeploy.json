@@ -88,13 +88,14 @@
       },
        "properties":{
         "subnets" : [
-             {
-              "type": "string",
-              "defaultValue": "Subnet",
-              "metadata": {
-              "description": "Name of the subnet in the virtual network"
-            }
-          ]
+               {
+                 "type": "string",
+                 "defaultValue": "Subnet",
+                 "metadata": {
+                    "description": "Name of the subnet in the virtual network"
+                  }
+              }
+         ]
       }
     },
     "networkSecurityGroupName": {
