@@ -92,6 +92,7 @@
                 "name": "azure-devops-subnet-001",
                 "addressPrefix": "10.1.0.0/24"
             }
+          ]
       }
     },
     "networkSecurityGroupName": {
