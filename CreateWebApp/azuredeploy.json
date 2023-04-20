@@ -88,9 +88,11 @@
       },
        "properties":{
         "subnets" : [
-            {
-                "name": "azure-devops-subnet-001",
-                "addressPrefix": "10.1.0.0/24"
+             {
+              "type": "string",
+              "defaultValue": "Subnet",
+              "metadata": {
+              "description": "Name of the subnet in the virtual network"
             }
           ]
       }
