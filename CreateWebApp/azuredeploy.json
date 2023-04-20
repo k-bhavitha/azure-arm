@@ -85,7 +85,7 @@
       "defaultValue": "vNet",
       "metadata": {
         "description": "Name of the VNET"
-      }
+      },
        "properties":{
         "subnets" : ["subnet"]
       }
