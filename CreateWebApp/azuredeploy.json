@@ -82,7 +82,7 @@
     },
   "virtualNetworkName": {
       "type": "string",
-      "defaultValue": "vNet",
+      "defaultValue": "kbvNet",
       "metadata": {
         "description": "Name of the VNET"
       }
