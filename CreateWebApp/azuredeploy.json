@@ -23,6 +23,27 @@
         "description": "Default deployment id"
       }
     },
+    "Application": {
+      "type": "string",
+      "defaultValue": "DemoApplicationTag",
+      "metadata": {
+        "description": "Default application tag"
+      }
+    },
+    "BusinessService": {
+      "type": "string",
+      "defaultValue": "DemoBusinessServiceTag",
+      "metadata": {
+        "description": "Default BusinessService tag"
+      }
+    },
+    "CostCenter": {
+      "type": "string",
+      "defaultValue": "DemoCostCenterTag",
+      "metadata": {
+        "description": "Default CostCenter tag"
+      }
+    },
     "adminUsername": {
       "type": "string",
       "metadata": {
