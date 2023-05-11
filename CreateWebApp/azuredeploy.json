@@ -223,7 +223,10 @@
       "name": "[parameters('vmName')]",
       "location": "[parameters('location')]",
       "tags": {
-        "deployment-id": "[parameters('deploymentID')]"
+        "deployment-id": "[parameters('deploymentID')]",
+        "BusinessService": "[parameters('BusinessService')]",
+        "Application": "[parameters('Application')]",
+        "CostCenter": "[parameters('CostCenter')]"
       },
       "properties": {
         "hardwareProfile": {
