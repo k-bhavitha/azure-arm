@@ -244,7 +244,7 @@
       "name": "[parameters('vmName')]",
       "location": "[parameters('location')]",
       "tags": {
-        "deployment-id": "[parameters('deploymentID')]",
+        "deploymentID": "[parameters('deploymentID')]",
         "BusinessService": "[parameters('BusinessService')]",
         "Application": "[parameters('Application')]",
         "CostCenter": "[parameters('CostCenter')]"
