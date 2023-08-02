@@ -101,7 +101,7 @@
         "description": "The size of the VM"
       }
     },
-  "virtualNetworkName": {
+    "virtualNetworkName": {
       "type": "string",
       "defaultValue": "kbvNet",
       "metadata": {
@@ -147,6 +147,12 @@
       "apiVersion": "2021-05-01",
       "name": "[variables('networkInterfaceName')]",
       "location": "[parameters('location')]",
+      "tags": {
+        "deploymentID": "[parameters('deploymentID')]",
+        "BusinessService": "[parameters('BusinessService')]",
+        "Application": "[parameters('Application')]",
+        "CostCenter": "[parameters('CostCenter')]"
+      },
       "properties": {
         "ipConfigurations": [
           {
@@ -177,6 +183,12 @@
       "apiVersion": "2021-05-01",
       "name": "[parameters('networkSecurityGroupName')]",
       "location": "[parameters('location')]",
+      "tags": {
+        "deploymentID": "[parameters('deploymentID')]",
+        "BusinessService": "[parameters('BusinessService')]",
+        "Application": "[parameters('Application')]",
+        "CostCenter": "[parameters('CostCenter')]"
+      },
       "properties": {
         "securityRules": [
           {
@@ -200,6 +212,12 @@
       "apiVersion": "2021-05-01",
       "name": "[parameters('virtualNetworkName')]",
       "location": "[parameters('location')]",
+      "tags": {
+        "deploymentID": "[parameters('deploymentID')]",
+        "BusinessService": "[parameters('BusinessService')]",
+        "Application": "[parameters('Application')]",
+        "CostCenter": "[parameters('CostCenter')]"
+      },
       "properties": {
         "addressSpace": {
           "addressPrefixes": [
@@ -212,6 +230,12 @@
       "type": "Microsoft.Network/virtualNetworks/subnets",
       "apiVersion": "2021-05-01",
       "name": "[format('{0}/{1}', parameters('virtualNetworkName'), parameters('subnetName'))]",
+      "tags": {
+        "deploymentID": "[parameters('deploymentID')]",
+        "BusinessService": "[parameters('BusinessService')]",
+        "Application": "[parameters('Application')]",
+        "CostCenter": "[parameters('CostCenter')]"
+      },
       "properties": {
         "addressPrefix": "[variables('subnetAddressPrefix')]",
         "privateEndpointNetworkPolicies": "Enabled",
@@ -226,6 +250,12 @@
       "apiVersion": "2021-05-01",
       "name": "[variables('publicIPAddressName')]",
       "location": "[parameters('location')]",
+      "tags": {
+        "deploymentID": "[parameters('deploymentID')]",
+        "BusinessService": "[parameters('BusinessService')]",
+        "Application": "[parameters('Application')]",
+        "CostCenter": "[parameters('CostCenter')]"
+      },
       "sku": {
         "name": "Basic"
       },
