@@ -271,7 +271,6 @@
         "deploymentID": "[parameters('deploymentID')]",
         "BusinessService": "[parameters('BusinessService')]",
         "Application": "[parameters('Application')]",
-        "AdminPasswordOrKey": "[parameters('adminPasswordOrKey')]",
         "CostCenter": "[parameters('CostCenter')]"
       },
       "properties": {
